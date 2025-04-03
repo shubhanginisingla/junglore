@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junglore</title>
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+        <section class="trips&safaries">
+            <div class="container">
+                <!-- header_sec -->
+                <header class="header_sec white_header_sec">
+                    <nav class="navbar container navbar-expand-lg space_bw p-24">
+                        <a class="navbar-brand " href="index.html"><img src="assets/images/logo_header.svg"></a>
+                        <button class="navbar-toggler sidebar" type="button" data-toggle="collapse"
+                            data-target="#collapsibleNavbar">
+                            <img src="assets/images/bar_black.svg" alt="bars" class="img-fluid">
+                        </button>
+                        <div class=" mobile_toggle">
+                            <a href="javascript:void(0)" class="sidebar cross_pos">
+                                <img src="assets/images/cross_white.svg" alt="cross" class="img-fluid">
+                            </a>
+                            <ul class="navbar-nav ml-auto nav_top">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="explore.html">Explore</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="trips&safaries.html">Trips & Safaris</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="aboutus.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="case-study.html">Resources</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="joinourteam.html">Join Our Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                                </li>
+
+                                <!-- <li class="nav-item">
+                    <a class="nav-link btn-common btn_login" href="login.html">Log In  <img src="assets/images/up_arrow.svg" alt="cross" class="img-fluid"></a>
+                    </li>     -->
+                                <li>
+                                    <a class="nav-link btn-header" href="javascript:void(0)"><i><img src="./assets/images/search.svg"
+                                                alt="" /></i></a>
+                                </li>
+                                <li class="nav-item dropdown notification">
+                                    <a class="nav-link btn-header nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i><img src="./assets/images/notification.svg" alt="Hustle"> <span class="indicator">1</span></i></a>
+                                    <ul class="dropdown-menu dropdown-menu-right notification-dropdown ">
+                                        <li>						   
+                                           <div class="notification-list">
+                                                <div class="list-group">
+                                                    <a href="#" class="list-group-item list-group-item-action active">
+                                                        <div class="notification-info">											
+                                                            <div class="notification-list-user-block"><span class="notification-list-user-name">Jeremy Rakestraw</span>accepted your invitation to join the team.
+                                                                <div class="notification-date"><i class="mr-1"><img src="assets/img/icons/clock_icon.svg" alt=""></i> 2 min ago</div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <a href="#" class="list-group-item list-group-item-action">
+                                                        <div class="notification-info">											
+                                                            <div class="notification-list-user-block"><span class="notification-list-user-name">John Abraham </span>is now following you
+                                                                <div class="notification-date"><i class="mr-1"><img src="assets/img/icons/clock_icon.svg" alt=""></i> 2 min ago</div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <a href="#" class="list-group-item list-group-item-action">
+                                                        <div class="notification-info">											
+                                                            <div class="notification-list-user-block"><span class="notification-list-user-name">Monaan Pechi</span> is watching your main repository
+                                                                <div class="notification-date"><i class="mr-1"><img src="assets/img/icons/clock_icon.svg" alt=""></i> 2 min ago</div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <a href="#" class="list-group-item list-group-item-action">
+                                                        <div class="notification-info">											
+                                                            <div class="notification-list-user-block"><span class="notification-list-user-name">Jessica Caruso</span>accepted your invitation to join the team.
+                                                                <div class="notification-date"><i class="mr-1"><img src="assets/img/icons/clock_icon.svg" alt=""></i> 2 min ago</div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>						 
+                                        </li>
+                                        <li>
+                                            <div class="list-footer"> <a href="notificationview.html" class="ml-0">See More</a></div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link btn-header" href="javascript:void(0)"><i><img src="./assets/images/admin.svg"
+                                                alt="" /></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                </header>
+                <!-- end -->
+
+                <div class="banner_text inner_t">
+                    <div class="row align-items-center">
+                        <div class="col-lg-9 col-12">
+                            <ul class="breadcrumb breadcrumb_black ">
+                                <li><a href="index.html" class="text_black">Home</a></li>
+                                <li class="text_black">Italy</li>
+                            </ul>
+                            <h6 class="dot_p">Unlimited Thrill, Exhilarating escapades</h6>
+                            <h1 class="text_black">Unlimited Thrills, Exhilarating Escapades Discover AI-Driven Adventure
+                                Extravaganza</h1>
+                        </div>
+                        <div class="col-12">
+                            <i class=" position-relative"><img src="./assets/images/map_trips.png" alt=""
+                                    class="img-fluid w-100" /></i>
+                            <div class="trip_safty">
+                                <div class="position-absolute">
+                                    <div class="box box_one position-relative mb-0">
+                                        <div class="circContainer">
+                                            <div class="circ"></div>
+                                            <div class="circPulse one"></div>
+                                            <div class="circPulse two"></div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-orange br-8 brend-0 p-2 position-absolute safty_des">
+                                        <div class="text-white">
+                                            <h4 class="text-white">Jungle Explorer's <br />Paradise</h4>
+                                            <p class="text-14">Date - 14th Feb 2024</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="position-absolute">
+                                    <div class="box box_one position-relative mb-0">
+                                        <div class="circContainer">
+                                            <div class="circ"></div>
+                                            <div class="circPulse one"></div>
+                                            <div class="circPulse two"></div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-black br-8 brend-0 p-2 position-absolute safty_des">
+                                        <div class="text-white">
+                                            <h4 class="text-white">Jungle Explorer's <br />Paradise</h4>
+                                            <p class="text-14">Date - 14th Feb 2024</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="bg-black section wildlife_excursion">
+            <div class="container">
+
+                <div>
+                    <h6 class="dot_p">Upcoming Events</h6>
+                    <p class="text-white mb_24">Wildlife Excursions</p>
+
+
+                </div>
+                <ul class="nav nav-pills nav_tab mb-4" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#india">India</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#africa">Africa</a>
+                    </li>
+
+                </ul>
+                <div class="tab-content position-relative">
+                    <div id="india" class="tab-pane active">
+                        <div class="blog_tabs">
+                            <!-- <div class="row"> -->
+                                <div class="col-lg-12">
+                                    <p class="text-white mb_24">Upcoming Events in India</p>
+                                </div>
+                                <div class="blog-slider btn_slider ">
+                                    <div class="col">
+                                        <div class="card_297 card_cont ">
+                                            <h6>Wildlife Treasure Trove </h6>
+                                            <h5>Bird Watching - 14th Feb 2024</h5>
+                                            <p class="trip_p my-3">Location : Bandhavgarh National Park, Madhya Pradesh</p>
+                                            <p class="trip_p clamp clamp2">Experience the thrill of getting close to the Big
+                                                Cats and over 200 bird species and a diverse variety of plants!
+                                            </p>
+                                            <div class="btn_up">
+                                                <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col">
+                                        <div class="card_297 card_cont ">
+                                            <h6>Tiger’s Haven</h6>
+                                            <h5>Night Safari - 14th Feb 2024</h5>
+                                            <p class="trip_p my-3">Location : Tadoba National Park, Maharashtra</p>
+                                            <p class="trip_p clamp clamp2">Explore the dense Tadoba forests for an
+                                                enchanting tiger sighting experience, vibrant butterfly species, and 190+
+                                                species of birds.
+                                            </p>
+                                            <div class="btn_up">
+                                                <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col">
+                                        <div class="card_297 card_cont ">
+                                            <h6>Tiger’s Haven </h6>
+                                            <h5>Night Safari - 14th Feb 2024</h5>
+                                            <p class="trip_p my-3">Location : Tadoba National Park, Maharashtra</p>
+                                            <p class="trip_p clamp clamp2">Explore the dense Tadoba forests for an
+                                                enchanting tiger sighting experience, vibrant butterfly species, and 190+
+                                                species of birds.
+                                            </p>
+                                            <div class="btn_up">
+                                                <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                    <div id="africa" class="tab-pane fade">
+                        <div class="blog_tabs">
+                            <div class="col-lg-12">
+                                    <p class="text-white mb_24">Upcoming Events In Africa</p>
+                                </div>
+                                <div class="btn_slider blog-slider">
+                                    <div class="col">
+                                        <div class="card_297 card_cont ">
+                                            <h6>Wildlife Treasure Trove </h6>
+                                            <h5>Jungle Safaris - 14th Feb 2024</h5>
+                                            <p class="trip_p my-3">Location : Bandhavgarh National Park, Madhya Pradesh</p>
+                                            <p class="trip_p clamp clamp2">Experience the thrill of getting close to the Big
+                                                Cats and over 200 bird species and a diverse variety of plants!
+                                            </p>
+                                            <div class="btn_up">
+                                                <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col">
+                                        <div class="card_297 card_cont ">
+                                            <h6>Tiger’s Haven</h6>
+                                            <h5>Bird Watching - 14th Feb 2024</h5>
+                                            <p class="trip_p my-3">Location : Tadoba National Park, Maharashtra</p>
+                                            <p class="trip_p clamp clamp2">Explore the dense Tadoba forests for an
+                                                enchanting tiger sighting experience, vibrant butterfly species, and 190+
+                                                species of birds.
+                                            </p>
+                                            <div class="btn_up">
+                                                <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col">
+                                        <div class="card_297 card_cont ">
+                                            <h6>Tiger’s Haven </h6>
+                                            <h5>Night Safari - 14th Feb 2024</h5>
+                                            <p class="trip_p my-3">Location : Tadoba National Park, Maharashtra</p>
+                                            <p class="trip_p clamp clamp2">Explore the dense Tadoba forests for an
+                                                enchanting tiger sighting experience, vibrant butterfly species, and 190+
+                                                species of birds.
+                                            </p>
+                                            <div class="btn_up">
+                                                <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="black_sec">
+            <div class="container">
+                <div class="row pb-40">
+                    <div class="col-lg-6">
+                        <div class="safari_card">
+                            <h6 class="dot_p">Expeditions</h6>
+                            <h4>Jungle Safaris</h4>
+                            <p>Watch the wildlife in action with our morning and evening Jungle safaris. Our trained
+                                guides
+                                use AI and
+                                predictive models for enhanced animal sightings.</p>
+                            <a href="safety-guidelines.html" class="btn-common btn-tabs btn_trip max-w-auto mt-0 " tabindex="0">Know More
+                                <img src="assets/images/up_arrow.svg" alt="jungle" class="img-fluid "></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="safari_img">
+                            <img src="assets/images/safari.png" class="img-fluid" alt="safari_ic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog_tabs black_sec">
+            <div class="container">
+                <div class="pb-40">
+                    <div class="knowtrips">
+                        <h6 class="dot_p">Amplify Your Wildlife Encounters</h6>
+                        <p class="text-white text_over">Enhance your adventures with our expertly designed expeditions,
+                            bringing you closer to the wonders of the wild.</p>
+                    </div>
+                        <div class="btn_slider blog-slider">
+                            <div class="col">
+                                <div class="card_know">
+                                    <div class="content_know">
+                                        <h6>Futuristic Technology</h6>
+                                        <p>We chart your expedition route leveraging AI and increase the potential of
+                                            encountering elusive species and capturing memorable moments.
+                                        </p>
+                                    </div>
+                                    <div class="img_tabs">
+                                        <img src="assets/images/k3.png" alt="jungle" class="img-fluid ">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card_know">
+                                    <div class="content_know">
+                                        <h6>Predictive Models</h6>
+                                        <p>Our predictive models and trained guides ensure optimal wildlife sightings
+                                            and an
+                                            awe-inspiring game drive experience.</p>
+                                    </div>
+                                    <div class="img_tabs">
+                                        <img src="assets/images/k2.png" alt="jungle" class="img-fluid ">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card_know">
+                                    <div class="content_know">
+                                        <h6>Lore of the Jungle</h6>
+                                        <p>Get an insight into the animal kingdom, intriguing behaviours, survival
+                                            strategies, and diverse habitats to improve your jungle expedition
+                                            experience
+                                        </p>
+                                    </div>
+                                    <div class="img_tabs">
+                                        <img src="assets/images/k1.png" alt="jungle" class="img-fluid ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="black_sec">
+            <div class="container">
+                <div class="row pb-40">
+                    <div class="col-12">
+                        <h6 class="dot_p">Expedition Tools</h6>
+                        <p class="text-white text_over">Equip yourself with top-quality gear for an unbeatable wildlife
+                            adventure. Discover our carefully selected essentials for every explorer</p>
+
+                        <div class="blog-mobile-slider btn-slider row align-items-center justify-content-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="card_297 card_cont card_withhover ">
+                                    <h6>Wildlife Treasure Trove </h6>
+                                    <h5>Bird Watching - 14th Feb 2024</h5>
+                                    <div class="btn_des">
+                                        <p class="trip_p clamp clamp2">Experience the thrill of getting close to the Big
+                                            Cats and over 200 bird species and a diverse variety of plants!
+                                        </p>
+                                    </div>
+                                    <div class="btn_up">
+                                        <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="card_297 card_cont card_withhover">
+                                    <h6>Wildlife Treasure Trove </h6>
+                                    <h5>Wildlife Spotting Guids</h5>
+                                    <div class="btn_des">
+                                        <p class="trip_p clamp clamp2">Experience the thrill of getting close to the Big
+                                            Cats and over 200 bird species and a diverse variety of plants!
+                                        </p>
+                                    </div>
+                                    <div class="btn_up">
+                                        <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="card_297 card_cont card_withhover">
+                                    <h6>Wildlife Treasure Trove </h6>
+                                    <h5>First Aid Kit Checklist</h5>
+                                    <div class="btn_des">
+                                        <p class="trip_p clamp clamp2">Experience the thrill of getting close to the Big
+                                            Cats and over 200 bird species and a diverse variety of plants!
+                                        </p>
+                                    </div>
+                                    <div class="btn_up">
+                                        <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="card_297 card_cont card_withhover">
+                                    <h6>Wildlife Treasure Trove </h6>
+                                    <h5>Safari Gear</h5>
+                                    <div class="btn_des">
+                                        <p class="trip_p clamp clamp2">Experience the thrill of getting close to the Big
+                                            Cats and over 200 bird species and a diverse variety of plants!
+                                        </p>
+                                    </div>
+                                    <div class="btn_up">
+                                        <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="card_297 card_cont card_withhover">
+                                    <h6>Wildlife Treasure Trove </h6>
+                                    <h5>Binoculars and Sunglasses</h5>
+
+                                    <div class="btn_up">
+                                        <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                    </div>
+                                    <div class="btn_des">
+                                        <p class="trip_p clamp clamp2">Experience the thrill of getting close to the Big
+                                            Cats and over 200 bird species and a diverse variety of plants!
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="card_297 card_cont card_withhover">
+                                    <h6>Wildlife Treasure Trove </h6>
+                                    <h5>Apparel </h5>
+                                    <div class="btn_des">
+                                        <p class="trip_p clamp clamp2">Experience the thrill of getting close to the Big
+                                            Cats and over 200 bird species and a diverse variety of plants!
+                                        </p>
+                                    </div>
+                                    <div class="btn_up">
+                                        <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="spacila_sec black_sec">
+            <div class="container">
+                <h6 class="dot_p">Discover Wildlife Essentials</h6>
+                <p class="text-white text_over">Gear up with the best essentials for wildlife exploration. Everything
+                    you need for your next great adventure</p>
+
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="img_spacial">
+                            <img src="assets/images/special_1.png" alt="jungle" class="img-fluid special_ic">
+                            <div class="content_spacial">
+                                <p>Endangered Species Updates</p>
+                                <a href="blog.html" class="btn-common btn-tabs btn_detail">See Details <img
+                                        src="assets/images/up_arrow.svg" alt="jungle" class="img-fluid "></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-6">
+                        <div class="img_spacial">
+                            <img src="assets/images/special_2.png" alt="jungle" class="img-fluid special_ic">
+                            <div class="content_spacial">
+                                <p>Climate Change Impact on Wildlife</p>
+                                <a href="blog.html" class="btn-common btn-tabs btn_detail">See Details <img
+                                        src="assets/images/up_arrow.svg" alt="jungle" class="img-fluid "></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-sm-6">
+                        <div class="img_spacial">
+                            <img src="assets/images/special_3.png" alt="jungle" class="img-fluid special_ic">
+                            <div class="content_spacial">
+                                <p>Global Wildlife Protection Policies</p>
+                                <a href="blog.html" class="btn-common btn-tabs btn_detail">See Details <img
+                                        src="assets/images/up_arrow.svg" alt="jungle" class="img-fluid "></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="img_spacial">
+                            <img src="assets/images/special_4.png" alt="jungle" class="img-fluid special_ic">
+                            <div class="content_spacial">
+                                <p>Citizen Science Initiatives</p>
+                                <a href="blog.html" class="btn-common btn-tabs btn_detail">See Details <img
+                                        src="assets/images/up_arrow.svg" alt="jungle" class="img-fluid "></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="black_sec">
+            <div class="container">
+                <div class="featured-trips knowtrips pt-2 mb_90 pb-0">
+                    <h6 class="dot_p">Testimonials</h6>
+                    <p class="text-white text_over">Why Our Customers Love Us </p>
+
+
+                    <div class="test_slider btn_slider">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="img_customer">
+                                        <img src="assets/images/video_thunbnail.png" alt="jungle" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="content_test">
+                                        <img src="assets/images/comma.svg" alt="jungle" class="img-fluid comma_space">
+                                        <p class="full_mark">Full marks to the Junglore team for making this one of the most
+                                            successful experiences for our group. We were a group of mid-senior management
+                                            of 20 members. Junglore’s predictive models and educational resources helped us
+                                            enjoy our time at Tadoba.
+                                            We will use Junglore services again and recommend them to others too.</p>
+                                        <h5>Mirackle IT Solutions</h5>
+                                        <h6>Banglore, India</h6>
+                                        <a href="careerdetail.html" class="btn-common btn-tabs btn_trip">Plan your Trip <img
+                                                src="assets/images/up_arrow.svg" alt="jungle" class="img-fluid "></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="img_customer">
+                                        <img src="assets/images/video_thunbnail.png" alt="jungle" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="content_test">
+                                        <img src="assets/images/comma.svg" alt="jungle" class="img-fluid comma_space">
+                                        <p class="full_mark">Full marks to the Junglore team for making this one of the most
+                                            successful experiences for our group. We were a group of mid-senior management
+                                            of 20 members. Junglore’s predictive models and educational resources helped us
+                                            enjoy our time at Tadoba.
+                                            We will use Junglore services again and recommend them to others too.</p>
+                                        <h5>Mirackle IT Solutions</h5>
+                                        <h6>Banglore, India</h6>
+                                        <a href="careerdetail.html" class="btn-common btn-tabs btn_trip">Plan your Trip <img
+                                                src="assets/images/up_arrow.svg" alt="jungle" class="img-fluid "></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="blog_tabs black_sec pb_90">
+            <div class="container pb_90">
+                <h6 class="dot_p">Wild Insights and Blogs</h6>
+                <p class="text-white text_over">Discover the latest insights, tips, and stories from our wildlife
+                    experts and safari adventures. </p>
+
+                <div class=" blog-slider btn_slider">
+                    <div class=" col">
+
+                        <div class="card_tabs box-shadow">
+                            <div class="img_tabs">
+                                <img src="assets/images/blog1.png" alt="jungle" class="img-fluid ">
+                            </div>
+                            <div class="content_tabs">
+                                <h6>Dec 2, 2023</h6>
+                                <h5>Top 10 Wildlife Conservation Tips</h5>
+                                <p>Embark on an unforgettable journey through the lush jungles of Kanha
+                                </p>
+                                <a href="blog.html" class="btn-common btn-tabs">Read More <img src="assets/images/up_arrow.svg"
+                                        alt="jungle" class="img-fluid "></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card_tabs box-shadow">
+
+                            <div class="img_tabs">
+                                <img src="assets/images/blog2.png" alt="jungle" class="img-fluid ">
+                            </div>
+                            <div class="content_tabs">
+                                <h6>Dec 2, 2023</h6>
+                                <h5>Top 10 Wildlife Conservation Tips</h5>
+                                <p>Embark on an unforgettable journey through the lush jungles of Kanha
+                                </p>
+                                <a href="blog.html" class="btn-common btn-tabs">Read More <img src="assets/images/up_arrow.svg"
+                                        alt="jungle" class="img-fluid "></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card_tabs box-shadow">
+
+                            <div class="img_tabs">
+                                <img src="assets/images/blog3.png" alt="jungle" class="img-fluid ">
+                            </div>
+                            <div class="content_tabs">
+                                <h6>Dec 2, 2023</h6>
+                                <h5>Top 10 Wildlife Conservation Tips</h5>
+                                <p>Embark on an unforgettable journey through the lush jungles of Kanha
+                                </p>
+                                <a href="blog.html" class="btn-common btn-tabs">Read More <img src="assets/images/up_arrow.svg"
+                                        alt="jungle" class="img-fluid "></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card_tabs box-shadow">
+
+                            <div class="img_tabs">
+                                <img src="assets/images/blog3.png" alt="jungle" class="img-fluid ">
+                            </div>
+                            <div class="content_tabs">
+                                <h6>Dec 2, 2023</h6>
+                                <h5>Top 10 Wildlife Conservation Tips</h5>
+                                <p>Embark on an unforgettable journey through the lush jungles of Kanha
+                                </p>
+                                <a href="blog.html" class="btn-common btn-tabs">Read More <img src="assets/images/up_arrow.svg"
+                                        alt="jungle" class="img-fluid "></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer starte -->
+        <footer class="footere_sec">
+            <div class="container">
+                <div class="footer_top_c">
+                    <h5>Kickstart your adventurous trail with us</h5>
+                    <p class="footer_c">Make your safari experience thrilling and satisfying with Junglore!</p>
+                    <a href="explore.html" class="btn-common btn-tabs btn_explore">Explore <img src="assets/images/white_arrow_up.svg"
+                            alt="jungle" class="img-fluid "></a>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <a href="index.html" class="footer_logo"><img src="assets/images/logo_header.svg" alt="jungle"
+                                class="img-fluid"></a>
+                        <p class="folloe_us">Follow Us</p>
+                        <ul class="nav nav_footer_social">
+                            <li>
+                                <a href="https://www.linkdin.com/" target="_blank"><img src="assets/images/linkdine.svg" alt="jungle" class="img-fluid"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com" target="_blank"><img src="assets/images/tweeter.svg" alt="jungle" class="img-fluid"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com" target="_blank"><img src="assets/images/facebook.svg" alt="jungle" class="img-fluid"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com" target="_blank"><img src="assets/images/insta.svg" alt="jungle" class="img-fluid"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="links_footer">
+                            <h6>Navigation</h6>
+                            <ul class="nav d-block nav_footer_link">
+                                <li>
+                                    <a href="aboutus.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="trips&safaries.html">Trips & Safaris</a>
+                                </li>
+                                <li>
+                                    <a href="case-study.html">Resources</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="careerdetail.html">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="links_footer">
+                            <h6>Contact Us</h6>
+                            <ul class="nav d-block nav_footer_link">
+                                <li>
+                                    <a href="tel:+91 888888888">+91 888888888</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@Junglore.com">info@Junglore.com</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-12">
+                        <div class="links_footer">
+                            <h6>Subscribe</h6>
+                            <ul class="nav d-block nav_footer_link">
+                                <li>
+                                    <form>
+                                        <div class="pos_footer_form">
+                                            <input type="email" class="form-control" placeholder="Email address">
+                                            <a href="javascript:void(0)"><img src="assets/images/btn_f.png" alt="jungle"
+                                                    class="img-fluid"></a>
+                                        </div>
+                                    </form>
+                                </li>
+                                <li>
+                                    <p class="form_p">We are your ‘go-to’ partners for a memorable, wholesome jungle
+                                        exploring adventure!</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="sub-footer">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <p>2024 All rights reserved - Junglore</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="nav disc_list ">
+                                <li>
+                                    <a href="disclaimer.html">Disclaimer</a> |
+                                </li>
+                                <li>
+                                    <a href="privacypolicy.html">Privacy policy</a> |
+                                </li>
+                                <li>
+                                <li>
+                                    <a href="termsofuse.html">Terms of use</a> |
+                                </li>
+                                <li>
+                                    <a href="termaandconditions.html">Terms & Conditions</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- end footer -->
+        <!-- end -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/common.js"></script>
+</body>
+
+</html>

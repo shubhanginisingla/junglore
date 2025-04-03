@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junglore</title>
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <section class="exp_bg joinour_team img_grad">
+        <div class="container">
+            <!-- header_sec -->
+            <header class="header_sec">
+                <nav class="navbar container navbar-expand-lg space_bw p-24">
+                    <a class="navbar-brand " href="index.html"><img src="assets/images/logo_header.svg"></a>
+                    <button class="navbar-toggler sidebar" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <img src="assets/images/bar_white.svg" alt="bars" class="img-fluid">
+                    </button>
+                    <div class=" mobile_toggle">
+                        <a href="javascript:void(0)" class="sidebar cross_pos">
+                            <img src="assets/images/cross_white.svg" alt="cross" class="img-fluid">
+                        </a>
+                        <ul class="navbar-nav ml-auto nav_top">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="explore.html">Explore</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="trips&safaries.html">Trips & Safaris</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutus.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="case-study.html">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="joinourteam.html">Join Our Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactus.html">Contact Us</a>
+                            </li>
+
+                            <!-- <li class="nav-item">
+              <a class="nav-link btn-common btn_login" href="login.html">Log In  <img src="assets/images/up_arrow.svg" alt="cross" class="img-fluid"></a>
+            </li>     -->
+            <li class="nav-item dropdown">
+                <a class="nav-link btn-header" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i><img
+                            src="./assets/images/search.svg" alt="" /></i></a>
+                <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                    <li>
+                        <div class="">
+                            <div class=" d-flex br-12 overflow-hidden bg-white">
+
+                                <input type="text" class="form-control border-0 my-1"
+                                    placeholder="Search" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <div class="p-1 border-0">
+                                    <span class="input-group-text bg-white border-0 bg-snapshot h-100"
+                                        id="basic-addon1"><img src="./assets/images/search.svg" alt=""
+                                            width="15"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+                            <li class="nav-item dropdown notification">
+                                <a class="nav-link btn-header nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i><img src="./assets/images/notification.svg" alt="Hustle"> <span class="indicator">1</span></i></a>
+                                <ul class="dropdown-menu dropdown-menu-right notification-dropdown ">
+                                    <li>						   
+                                       <div class="notification-list">
+                                            <div class="list-group">
+                                                <a href="#" class="list-group-item list-group-item-action active">
+                                                    <div class="notification-info">											
+                                                        <div class="notification-list-user-block"><span class="notification-list-user-name">Jeremy Rakestraw</span>accepted your invitation to join the team.
+                                                            <div class="notification-date"><i class="mr-1"><img src="assets/img/icons/clock_icon.svg" alt=""></i> 2 min ago</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="list-group-item list-group-item-action">
+                                                    <div class="notification-info">											
+                                                        <div class="notification-list-user-block"><span class="notification-list-user-name">John Abraham </span>is now following you
+                                                            <div class="notification-date"><i class="mr-1"><img src="assets/img/icons/clock_icon.svg" alt=""></i> 2 min ago</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="list-group-item list-group-item-action">
+                                                    <div class="notification-info">											
+                                                        <div class="notification-list-user-block"><span class="notification-list-user-name">Monaan Pechi</span> is watching your main repository
+                                                            <div class="notification-date"><i class="mr-1"><img src="assets/img/icons/clock_icon.svg" alt=""></i> 2 min ago</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="list-group-item list-group-item-action">
+                                                    <div class="notification-info">											
+                                                        <div class="notification-list-user-block"><span class="notification-list-user-name">Jessica Caruso</span>accepted your invitation to join the team.
+                                                            <div class="notification-date"><i class="mr-1"><img src="assets/img/icons/clock_icon.svg" alt=""></i> 2 min ago</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>						 
+                                    </li>
+                                    <li>
+                                        <div class="list-footer"> <a href="notificationview.html" class="ml-0">See More</a></div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="nav-link btn-header" href="javascript:void(0)"><i><img src="./assets/images/admin.svg"
+                                            alt="" /></i></a>
+                            </li>
+                        </ul>
+                    </div>
+            </header>
+
+            <div class="banner_text inner_t position-relative aboutus_banner">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <ul class="breadcrumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="experiance.html">Experiences</a></li>
+                            <li>Jungle Expedition</li>
+                        </ul>
+                        <h6 class="dot_p">About</h6>
+                        <h1>Quench Your Adventure Quest</h1>
+                    </div>
+                    <div class="text-center header_des">
+                        <h2>Gear up for an exhilarating adventure into some of the world’s most magnificent jungles.
+                            From exciting daytime safaris to hair-raising night safari and serene star-gazing events,
+                            each of our jungle expeditions is meticulously created using AI and predictive models for
+                            enhanced wildlife sightings. Our trained guides, awesome food and accommodation
+                            arrangements, and cooperative staff ensure a truly fulfilling jungle expedition experience
+                            with us.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="bg-black section wildlife_excursion">
+        <div class="container">
+
+            <div>
+                <h6 class="dot_p">Why jungle expedition?</h6>
+                <p class="text-white mb_24">Navigate through the forests to witness raw jungle beauty, elusive wildlife
+                    in their natural habitat, and diverse flora and fauna. The jungle survival stories create a lasting
+                    impression.</p>
+
+
+            </div>
+
+            <div class="row align-items-start">
+                <div class="col-lg-8 col-md-6 col-12">
+                    <div class="card card_cont card_297">
+                        <div class="card-head mb-2">
+                            <i><img src="./assets/images/jug_1.svg" alt="" class="img-fluid" /></i>
+                        </div>
+
+                        <div class="card-des">
+                            <h5 class="text-18 text-white my-3">Wildlife Sightings </h5>
+                            <p class="font-weight-light m-0 text-white clamp clamp3">Explore the opportunity to see big
+                                cats in their natural habitat, glimpse some of the most exotic animals, enjoy the
+                                soothing sounds of cooing birds amid the lush green forest, and experience a rare chance
+                                to connect with nature.
+                            </p>
+                        </div>
+                    </div><!-- End -->
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card card_cont card_297 bg-yellow">
+                        <div class="card-head mb-2">
+                            <i><img src="./assets/images/jug_1.svg" alt="" class="img-fluid" /></i>
+                        </div>
+
+                        <div class="card-des">
+                            <h5 class="text-18 text-black my-3">Spectacular landscapes</h5>
+                            <p class="font-weight-light m-0 text-black clamp clamp3">Explore the opportunity to see big
+                                cats in their natural habitat, glimpse some of the most exotic animals, enjoy the
+                                soothing sounds of cooing birds amid the lush green forest, and experience a rare chance
+                                to connect with nature.
+                            </p>
+                        </div>
+                    </div><!-- End -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card card_cont card_297 bg-snapshot">
+                        <div class="card-head mb-2">
+                            <i><img src="./assets/images/scan.svg" alt="" class="img-fluid" /></i>
+                        </div>
+
+                        <div class="card-des">
+                            <h5 class="text-18 text-black my-3">Mesmerising Snapshots</h5>
+                            <p class="font-weight-light m-0 text-black clamp clamp3">Click ínsta-worthy photos of
+                                wildlife in action and beautiful landscapes in your camera for lasting memories.
+                            </p>
+                        </div>
+                    </div><!-- End -->
+
+                </div>
+                <div class="col-lg-8 col-md-6 col-12">
+                    <div class="card card_cont card_297 bg-orange">
+                        <div class="card-head mb-2">
+                            <i><img src="./assets/images/destination.svg" alt="" class="img-fluid" /></i>
+                        </div>
+
+                        <div class="card-des">
+                            <h5 class="text-18 text-white my-3">Tranquil Retreat</h5>
+                            <p class="font-weight-light m-0 text-white clamp clamp3">Relax and unwind in the tranquil
+                                atmosphere of some of the best accommodations in the area. Enjoy the hospitality,
+                                luxurious amenities, and customized services amid serene surroundings and enjoy a
+                                perfect getaway from your busy routine.
+                            </p>
+                        </div>
+                    </div><!-- End -->
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="bg-black">
+        <div class="container">
+            <div class="row pb-40">
+                <div class="col-12">
+                    <h6 class="dot_p">Expedition Tools</h6>
+                    <p class="text-white text_over">Equip yourself with top-quality gear for an unbeatable wildlife
+                        adventure. Discover our carefully selected essentials for every explorer</p>
+
+                    <div class="row align-items-center justify-content-start">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card_297 card_cont card_withhover ">
+                                <h6>Tools </h6>
+                                <h5>Photography Gear</h5>
+                                <div class="btn_des">
+                                    <p class="trip_p clamp clamp2">Track the wildlife movements in real-time for
+                                        enhanced wildlife spotting.
+                                    </p>
+                                </div>
+                                <div class="btn_up">
+                                    <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card_297 card_cont card_withhover">
+                                <h6>Tools</h6>
+                                <h5>Photography Gear</h5>
+                                <div class="btn_des">
+                                    <p class="trip_p clamp clamp2">Track the wildlife movements in real-time for
+                                        enhanced wildlife spotting.
+                                    </p>
+                                </div>
+                                <div class="btn_up">
+                                    <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card_297 card_cont card_withhover">
+                                <h6>Tools</h6>
+                                <h5>Personal Care</h5>
+                                <div class="btn_des">
+                                    <p class="trip_p clamp clamp2">Track the wildlife movements in real-time for
+                                        enhanced wildlife spotting.
+                                    </p>
+                                </div>
+                                <div class="btn_up">
+                                    <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card_297 card_cont card_withhover">
+                                <h6>Tools</h6>
+                                <h5>Trendy Wear</h5>
+                                <div class="btn_des">
+                                    <p class="trip_p clamp clamp2">Track the wildlife movements in real-time for
+                                        enhanced wildlife spotting.
+                                    </p>
+                                </div>
+                                <div class="btn_up">
+                                    <img src="assets/images/up_24.svg" alt="jungle" class="img-fluid ">
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black blog_tabs">
+        <div class="container">
+            <div class="pb-40">
+                <div class="">
+                    <h6 class="dot_p">Wildlife Experiences</h6>
+                    <p class="text-white text_over">Enjoy the most thrilling wildlife sighting experience with our
+                        thoughtfully designed, AI-driven wildlife expeditions.</p>
+                </div>
+                <div class="btn_slider blog-slider">
+                    <div class="col">
+                        <div class="card_know">
+                            <div class="content_know">
+                                <h6>Unmatched Hospitality</h6>
+                                <p>Top-notch accommodation and food, luxurious amenities, comfortable vehicles,
+                                    meticulously planned trips, and dedicated staff at your service, we assure you the
+                                    best!
+                                </p>
+                            </div>
+                            <div class="img_tabs">
+                                <img src="assets/images/unmatched_hospitality.jpg" alt="jungle" class="img-fluid ">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card_know">
+                            <div class="content_know">
+                                <h6>Knowledgeable Guide</h6>
+                                <p>Our trained naturalists ensure exceptional wildlife sightings and share astounding
+                                    wildlife titbits for a truly fulfilling experience.</p>
+                            </div>
+                            <div class="img_tabs">
+                                <img src="assets/images/k2.png" alt="jungle" class="img-fluid ">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card_know">
+                            <div class="content_know">
+                                <h6>Captivating Images</h6>
+                                <p>Capture the stunning jungle beauty and wildlife in your camera as our expert
+                                    photographers guide you through a ‘hands-on’ workshop.
+                                </p>
+                            </div>
+                            <div class="img_tabs">
+                                <img src="assets/images/k1.png" alt="jungle" class="img-fluid ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black blog_tabs pb-5 mb_90">
+        <div class="container">
+            <h6 class="dot_p">Attractions</h6>
+            <p class="text-white text_over">Every safari has unique attractions. Game drives, nature trails, bird
+                watching, climbing, campfires, star gazing, team activities, and more. </p>
+
+            <div class="blog-mobile-slider btn_slider row align-items-center">
+                <div class="col-lg-4 col-12">
+
+                    <div class="card_tabs box-shadow mb-3 " data-toggle="modal" data-target="#loin">
+                        <div class="img_tabs">
+                            <img src="assets/images/loin.jpg" alt="jungle" class="img-fluid ">
+                        </div>
+                        <div class="content_tabs">
+                            <h5>Loin</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-12">
+                    <div class="card_tabs box-shadow mb-3" data-toggle="modal" data-target="#Leopard">
+
+                        <div class="img_tabs">
+                            <img src="assets/images/leopard.jpg" alt="jungle" class="img-fluid ">
+                        </div>
+                        <div class="content_tabs">
+                            <h5>Leopard</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-12">
+                    <div class="card_tabs box-shadow mb-3" data-toggle="modal" data-target="#Elephant">
+
+                        <div class="img_tabs">
+                            <img src="assets/images/elephant.jpg" alt="jungle" class="img-fluid ">
+                        </div>
+                        <div class="content_tabs">
+                            <h5>Elephant</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card_tabs box-shadow mb-3" data-toggle="modal" data-target="#Giraffe">
+
+                        <div class="img_tabs">
+                            <img src="assets/images/giraffe.jpg" alt="jungle" class="img-fluid ">
+                        </div>
+                        <div class="content_tabs">
+                            <h5>Giraffe</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card_tabs box-shadow mb-3" data-toggle="modal" data-target="#Deer">
+
+                        <div class="img_tabs">
+                            <img src="assets/images/deer.jpg" alt="jungle" class="img-fluid ">
+                        </div>
+                        <div class="content_tabs">
+                            <h5>Deer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card_tabs box-shadow mb-3" data-toggle="modal" data-target="#Bustard">
+
+                        <div class="img_tabs">
+                            <img src="assets/images/greatindian.jpg" alt="jungle" class="img-fluid ">
+                        </div>
+                        <div class="content_tabs">
+                            <h5>Great Indian Bustard</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="case_study pb_90">
+        <div class="container">
+            <h6 class="dot_p">More Activities</h6>
+            <p class="text_over">Discover the latest insights, tips, and stories from our wildlife experts and safari
+                adventures.</p>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card_studys">
+                        <div class="caseone_img">
+                            <img src="assets/images/case1.png" class="img-fluid br-30" alt="img_lion">
+                        </div>
+                        <div class="caseone_card">
+                            <h6 class="text-black">Stargazing</h6>
+                            <p class="text-black">Enjoy a blissful experience observing celestial bodies in the
+                                pollution free pitch dark skies with our astronomy enthusiasts.</p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card_studys">
+                        <div class="caseone_img">
+                            <img src="assets/images/case2.jpg" class="img-fluid br-30" alt="img_lion">
+                        </div>
+                        <div class="caseone_card">
+                            <h6 class="text-black">Boating</h6>
+                            <p class="text-black">Glide in the serene waters to enjoy the dense forests and an
+                                opportunity to spot abundant wildlife.</p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <section class="">
+        <div class="container">
+            <div class="mb-4">
+                <h6 class="dot_p">Nature Trail</h6>
+                <p class=" text_over">Bask in the nature’s rustic beauty and enjoy panoramic views in the dense forests.
+                </p>
+            </div>
+            <div class="col-lg-10 col-12 mx-auto">
+                <div class="row pb-40 align-items-center justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="safari_card">
+                            <h4 class="text-black">Mountain Escapades
+                            </h4>
+                            <p class="text-black">Get a closer view of the majestic mountains and satiate your
+                                adventurous thirst with activities galore. Go trekking, indulge in paragliding, skiing,
+                                mountain biking, river rafting, and rock climbing, or enjoy joy rides like funiculars,
+                                cable cars, toy trains, and more.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="safari_img">
+                            <img src="assets/images/mountains.jpg" class="img-fluid" alt="safari_ic">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pb-40 mt_mob align-items-center justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="safari_img">
+                            <img src="assets/images/mistical.jpg" class="img-fluid" alt="safari_ic">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="safari_card ">
+                            <h1 class="text-black">Mystical Forest TrailS</h1>
+                            <p class="text-black">Walk through the narrow pathways as the sunlight glistens through the
+                                leafy canopy. Breathe in refreshing air and earthy aroma amid the soothing sounds of
+                                flowing rivers and cascading waterfalls. Feel the undercurrent as the animals dart
+                                through the bushes with danger ever lurking.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pb-40 align-items-center justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="safari_card">
+                            <h4 class="text-black">Marine Wildlife Encounters</h4>
+                            <p class="text-black">Venture into the mesmerising marine world with scuba diving and
+                                snorkelling. Swim gracefully alongside sea mammals, turtles, whales, dolphins, sea
+                                lions, seals and many more. Explore kaleidoscopic, vibrant coral reefs and more, or surf
+                                in the gentle, tranquil waters.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="safari_img">
+                            <img src="assets/images/encounters.jpg" class="img-fluid" alt="safari_ic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="mb_90">
+        <div class="container">
+            <div class="col-lg-10 col-12 bg-lightblack br-30 mx-auto">
+                <div class="row pb-40 p-4">
+                    <div class="col-lg-6">
+                        <div class="safari_card">
+                            <h6 class="dot_p">Expeditions</h6>
+                            <h4>Jungle Safaris</h4>
+                            <p>Watch the wildlife in action with our morning and evening Jungle safaris. Our trained
+                                guides
+                                use AI and
+                                predictive models for enhanced animal sightings.</p>
+                            <a href="safety-guidelines.html" class="btn-common btn-tabs btn_trip max-w-auto mt-0 " tabindex="0">Know More
+                                <img src="assets/images/up_arrow.svg" alt="jungle" class="img-fluid "></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="safari_img">
+                            <img src="assets/images/safari.png" class="img-fluid" alt="safari_ic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    </div>
+    <!-- footer starte -->
+    <footer class="footere_sec">
+        <div class="container">
+            <div class="footer_top_c">
+                <h5>Kickstart your adventurous trail with us</h5>
+                <p class="footer_c">Make your safari experience thrilling and satisfying with Junglore!</p>
+                <a href="explore.html" class="btn-common btn-tabs btn_explore">Explore <img src="assets/images/white_arrow_up.svg"
+                        alt="jungle" class="img-fluid "></a>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <a href="index.html" class="footer_logo"><img src="assets/images/logo_header.svg" alt="jungle"
+                            class="img-fluid"></a>
+                    <p class="folloe_us">Follow Us</p>
+                    <ul class="nav nav_footer_social">
+                        <li>
+                            <a href="https://www.linkdin.com/" target="_blank"><img src="assets/images/linkdine.svg" alt="jungle" class="img-fluid"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com" target="_blank"><img src="assets/images/tweeter.svg" alt="jungle" class="img-fluid"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank"><img src="assets/images/facebook.svg" alt="jungle" class="img-fluid"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank"><img src="assets/images/insta.svg" alt="jungle" class="img-fluid"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <div class="links_footer">
+                        <h6>Navigation</h6>
+                        <ul class="nav d-block nav_footer_link">
+                            <li>
+                                <a href="aboutus.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="trips&safaries.html">Trips & Safaris</a>
+                            </li>
+                            <li>
+                                <a href="case-study.html">Resources</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="careerdetail.html">Careers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <div class="links_footer">
+                        <h6>Contact Us</h6>
+                        <ul class="nav d-block nav_footer_link">
+                            <li>
+                                <a href="tel:+91 888888888">+91 888888888</a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@Junglore.com">info@Junglore.com</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <div class="links_footer">
+                        <h6>Subscribe</h6>
+                        <ul class="nav d-block nav_footer_link">
+                            <li>
+                                <form>
+                                    <div class="pos_footer_form">
+                                        <input type="email" class="form-control" placeholder="Email address">
+                                        <a href="javascript:void(0)"><img src="assets/images/btn_f.png" alt="jungle"
+                                                class="img-fluid"></a>
+                                    </div>
+                                </form>
+                            </li>
+                            <li>
+                                <p class="form_p">We are your ‘go-to’ partners for a memorable, wholesome jungle
+                                    exploring adventure!</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sub-footer">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <p>2024 All rights reserved - Junglore</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="nav disc_list ">
+                                <li>
+                                    <a href="disclaimer.html">Disclaimer</a> |
+                                </li>
+                                <li>
+                                    <a href="privacypolicy.html">Privacy policy</a> |
+                                </li>
+                                <li>
+                                <li>
+                                    <a href="termsofuse.html">Terms of use</a> |
+                                </li>
+                                <li>
+                                    <a href="termaandconditions.html">Terms & Conditions</a>
+                                </li>
+
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- end footer -->
+    <!-- modals -->
+    <!-- Modal -->
+    <div class="modal fade" id="loin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content bg-lightblack br-30 p-2">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="./assets/images/cross_modal.svg" alt="" /></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-24 text-white mb-3">Tiger</h4>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments.We chart your
+                        expedition route leveraging AI and increase the potential of encountering elusive species and
+                        capturing memorable moments capturing memorable moments capturing memorable moments.</p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments capturing memorable
+                        moments.
+                    </p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and
+                        We chart your expedition route leveraging AI and increase the potential of encountering elusive
+                        species and capturing memorable moments.We chart your expedition route leveraging.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Leopard-->
+    <div class="modal fade" id="Leopard" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg  ">
+            <div class="modal-content bg-lightblack br-30 p-2">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="./assets/images/cross_modal.svg" alt="" /></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-24 text-white mb-3">Leopard</h4>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments.We chart your
+                        expedition route leveraging AI and increase the potential of encountering elusive species and
+                        capturing memorable moments capturing memorable moments capturing memorable moments.</p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments capturing memorable
+                        moments.
+                    </p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and
+                        We chart your expedition route leveraging AI and increase the potential of encountering elusive
+                        species and capturing memorable moments.We chart your expedition route leveraging.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Leopard-->
+    <!--Leopard-->
+    <div class="modal fade" id="Leopard" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content bg-lightblack br-30 p-2">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="./assets/images/cross_modal.svg" alt="" /></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-24 text-white mb-3">Leopard</h4>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments.We chart your
+                        expedition route leveraging AI and increase the potential of encountering elusive species and
+                        capturing memorable moments capturing memorable moments capturing memorable moments.</p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments capturing memorable
+                        moments.
+                    </p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and
+                        We chart your expedition route leveraging AI and increase the potential of encountering elusive
+                        species and capturing memorable moments.We chart your expedition route leveraging.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Leopard-->
+    <!--Giraffe-->
+    <div class="modal fade" id="Giraffe" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content bg-lightblack br-30 p-2">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="./assets/images/cross_modal.svg" alt="" /></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-24 text-white mb-3">Giraffe</h4>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments.We chart your
+                        expedition route leveraging AI and increase the potential of encountering elusive species and
+                        capturing memorable moments capturing memorable moments capturing memorable moments.</p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments capturing memorable
+                        moments.
+                    </p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and
+                        We chart your expedition route leveraging AI and increase the potential of encountering elusive
+                        species and capturing memorable moments.We chart your expedition route leveraging.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Giraffe-->
+    <!--Deer-->
+    <div class="modal fade" id="Deer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content bg-lightblack br-30 p-2">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="./assets/images/cross_modal.svg" alt="" /></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-24 text-white mb-3">Deer</h4>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments.We chart your
+                        expedition route leveraging AI and increase the potential of encountering elusive species and
+                        capturing memorable moments capturing memorable moments capturing memorable moments.</p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments capturing memorable
+                        moments.
+                    </p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and
+                        We chart your expedition route leveraging AI and increase the potential of encountering elusive
+                        species and capturing memorable moments.We chart your expedition route leveraging.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Deer-->
+    <!--Bustard-->
+    <div class="modal fade" id="Bustard" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content bg-lightblack br-30 p-2">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="./assets/images/cross_modal.svg" alt="" /></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-24 text-white mb-3">Bustard</h4>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments.We chart your
+                        expedition route leveraging AI and increase the potential of encountering elusive species and
+                        capturing memorable moments capturing memorable moments capturing memorable moments.</p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments capturing memorable
+                        moments.
+                    </p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and
+                        We chart your expedition route leveraging AI and increase the potential of encountering elusive
+                        species and capturing memorable moments.We chart your expedition route leveraging.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Bustard-->
+    <!--Elephant-->
+    <div class="modal fade" id="Elephant" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content bg-lightblack br-30 p-2">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="./assets/images/cross_modal.svg" alt="" /></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-24 text-white mb-3">Elephant</h4>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments.We chart your
+                        expedition route leveraging AI and increase the potential of encountering elusive species and
+                        capturing memorable moments capturing memorable moments capturing memorable moments.</p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and capturing memorable moments capturing memorable
+                        moments.
+                    </p>
+                    <p class="text-16 mb-3 text-white">We chart your expedition route leveraging AI and increase the
+                        potential of encountering elusive species and
+                        We chart your expedition route leveraging AI and increase the potential of encountering elusive
+                        species and capturing memorable moments.We chart your expedition route leveraging.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Elephant-->
+    <!-- modals -->
+    <!-- end -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/common.js"></script>
+</body>
+
+</html>
